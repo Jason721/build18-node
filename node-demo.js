@@ -1,6 +1,6 @@
 const http = require('http');
 const figlet = require("figlet");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 const handler = (req, res) => {
     console.log('Server received request.');
