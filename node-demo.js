@@ -4,7 +4,7 @@ const port = process.env.PORT || 80;
 
 const handler = (req, res) => {
     console.log('Server received request.');
-    figlet('Hello Build 2018!!!', (err, data) => {
+    figlet('AUTOMATE 2018!!!', (err, data) => {
       if (err) {
             console.log('Something went wrong... ');
             console.dir(err);
